@@ -1,0 +1,19 @@
+@mixin btn(){
+    display: inline-flex;
+padding: 0.6000rem 1.2000rem ;
+gap: 0.625rem;
+border-radius: 0.4375rem;
+background: #292930;
+
+    a{
+        color: #FFF;
+        justify-content: center;
+        align-items: center;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; 
+text-transform: capitalize;
+    }
+}
+

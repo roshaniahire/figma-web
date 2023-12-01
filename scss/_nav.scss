@@ -1,0 +1,130 @@
+.navbar-brand{
+    img{
+        width: 15.1875rem;
+height: 5.07275rem;
+color: #2C2D36;
+font-family: Nunito;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 800;
+line-height: 160%; /* 3rem */
+    }
+}
+
+
+button{
+    display: inline-flex;
+padding: 0.6000rem 1.2000rem ;
+// padding:  1.0625rem  1.4375rem 1.125rem 1.4375rem;
+// justify-content: center;
+// align-items: center;
+gap: 0.625rem;
+border-radius: 0.4375rem;
+background: #292930;
+
+    a{
+        color: #FFF;
+        justify-content: center;
+        align-items: center;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 1.8rem */
+text-transform: capitalize;
+    }
+
+
+}
+
+.nav-link{
+    color: #292930;
+font-family: Nunito;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 1.8rem */
+text-transform: capitalize;
+}
+
+.navbar{
+    position: relative;
+    
+}
+.navbar-collapse{
+    z-index: 100;
+}
+.circle{
+    width: 42.05rem;
+height: 42.05rem;
+flex-shrink: 0;
+border-radius: 25.0rem;
+background: #F4F6FB;
+position: absolute;
+top: -10rem;
+left: 45rem;
+
+}
+.heading{
+    small{
+        color: #292930;
+font-family: Noto Sans;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 156.5%;
+letter-spacing: 0.12656rem;
+text-transform: uppercase;
+
+h6{
+    color: #FEC90C;
+display: inline-block;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 156.5%; /* 1.46719rem */
+letter-spacing: 0.12656rem;
+text-transform: uppercase;
+}
+    }
+    h2{
+        color: #292930;
+        width: 42.25rem;
+font-size: 4.375rem;
+font-style: normal;
+font-weight: 700;
+line-height: 110.5%; /* 4.83438rem */
+
+span{
+    color: #5956E8;
+font-family: Nunito;
+font-size: 4.375rem;
+font-style: normal;
+font-weight: 800;
+line-height: 110.5%;
+}
+    }
+
+    p{
+        color: #555;
+        width: 37.0625rem;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 156.5%; /* 1.76063rem */
+    }
+    
+}
+
+.btn1{
+   
+     border: 2px solid transparent;
+   
+}
+.btn2{
+    
+     background-color: #FFF;
+     border: 2px solid black;
+     a{
+        color: #292930 ;
+     }
+}
